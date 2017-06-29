@@ -1,7 +1,7 @@
 # Introduction
 A simple express server using the pem library to show how to create a server that allows HTTPS connections. This utilizes a self-signed certificate whcih is perfect for development servers.
 
-There are no extra dependencies like openSSL or keytool required ot generate a certificate. It is done in the node server on startup.
+On a Mac there are no extra dependencies. The PEM library uses OpenSSL under the covers which should be installed on a mac be default. Windows on the other hand is a different beast and requires you to install OpenSSL. Good luck!!
 
 # Usage
 Server will startup from the command line.
